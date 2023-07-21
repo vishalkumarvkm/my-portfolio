@@ -11,12 +11,28 @@
     <nav id="desktop-nav">
         <div class="logo">Vishal Mishra</div>
         <div>
-            <ul class="nav-list">
+            <ul class="nav-link">
                 <li><a href="#about">about</a></li>
                 <li><a href="#Experience">Experience</a></li>
                 <li><a href="#Project">Project</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Vishal Mishra</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="#about" onclick="togglemenu()">about</a></li>
+                <li><a href="#Experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#Project" onclick="togglemenu()">Project</a></li>
+                <li><a href="#Contact" onclick="togglemenu()">Contact</a></li>
+            </div>
         </div>
     </nav>
     <script src=""></script>
